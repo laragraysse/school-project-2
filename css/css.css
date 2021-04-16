@@ -1,0 +1,102 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .esquerda {
+    width: 15%;
+    float: left;
+    margin-top: 1%;
+    padding: 0;
+  }
+
+  .conteudo {
+    width: 69%;
+    float: left;
+    margin-top: 1%;
+    text-align: left;
+    padding-left: 33%;
+  }
+
+  .direita {
+    width: 15%;
+    margin-top: 1%;
+    float: left;
+  }
+
+  .principal {
+      width: 100%;
+      float: left;
+      background-color: white;
+  }
+
+  .menu {
+    width: 100%;
+    float: left;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 25%;
+    background-color: #318894;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=reset] {
+    width: 25%;
+    background-color: #318894;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #318894;
+  }
+  
+  label {
+      display: block;
+  }
+
+  .form {
+      width: 50;
+      margin: 0;
+      margin: 0 auto;
+      margin-top: 1%;
+  }

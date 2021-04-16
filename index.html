@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <meta charset="UTF-8">
+    <title>Inserir Livros - Biblioteca</title>
+    <script src="js/javascript.js"></script>
+</head>
+<body>
+    <div class="principal">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Inserir Livros</a></li>
+                <li><a href="php/listar.php">Listar Livros</a></li>
+                <li><a href="pglivros.html">Pesquisar Livros</a></li>
+                <li><a href="pgautores.html">Pesquisar Autores</a></li>
+            </ul>
+        </div>
+        <div class="esquerda"></div>
+                
+        <div class="conteudo">
+            <h2>Dados do Livro</h2>
+            <form class="form" method="POST" action="php/inserir.php" onsubmit="return validarIndex();">
+                            
+                <div class="formlinha">
+                    <label for="idlivro">ID: </label>
+                    <input name="idlivro" id="id" type="text">
+                </div>
+                        
+                <div class="formlinha">
+                    <label for="isbn">ISBN: </label>
+                    <input name="isbn" id="isbn" type="text" minlength="13" maxlength="13">
+                </div>
+                        
+                <div class="formlinha">
+                    <label for="titulo">Título: </label>
+                    <input name="titulo" id="titulo" type="text">
+                </div>
+                        
+                <div class="formlinha">
+                    <label for="autor">Autor: </label>
+                    <input name="autor" id="autor" type="text">
+                </div>
+                        
+                <div class="formlinha">
+                    <label for="categoria">Categoria: </label>
+                    <input name="categoria" id="categoria" type="text">
+                </div>
+                        
+                <div class="formlinha">
+                    <label for="ano">Ano de Lançamento: </label>
+                    <input name="ano" id="ano" type="text" minlength="4" maxlength="4">
+                </div>
+                        
+                <div class="formlinha">
+                    <label for="editora">Editora: </label>
+                    <input name="editora" id="editora" type="text">
+                </div>
+                <br>
+                
+                <div class="formlinha">
+                    <input class="button" type="submit" value="Enviar">
+                    <input class="button" type="reset" value="Limpar">
+                </div>
+                                
+            </form>
+        </div>
+                
+        <div class="direita"></div>
+
+    </div>
+</body>
+</html>

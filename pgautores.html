@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <meta charset="UTF-8">
+    <title>Pesquisar Livros</title>
+</head>
+<body>
+    <div class="principal">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Inserir Livros</a></li>
+                <li><a href="php/listar.php">Listar Livros</a></li>
+                <li><a href="pglivros.html">Pesquisar Livros</a></li>
+                <li><a href="pgautores.html">Pesquisar Autores</a></li>
+            </ul>
+        </div>
+        <div class="esquerda"></div>
+                
+        <div class="conteudo">
+            <h2>Pesquisar Autores</h2>
+                    
+            <form method="POST" action="php/pesquisarautores.php">
+
+                <div class="formlinha">
+                    <label for="autor">Nome do Autor: </label>
+                    <input name="autor" id="autor" type="text"><br>
+                    <input class="button" type="submit" value="Enviar">
+                    <input class="button" type="reset" value="Limpar">
+                </div>
+                        
+            </form>
+        </div>
+                
+        <div class="direita"></div>
+            
+    </div>
+
+</body>
+</html>
