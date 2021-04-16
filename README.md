@@ -1,5 +1,5 @@
 <h1 align="center"> 
-  GAMES INFO WEBSITE 
+  SCHOOL PROJECT 2 - LIBRARY 
 </h1>
 
 <p align="center"> This website was built back in 2018 high school when I was in the IT course in Lisbon. <p>
